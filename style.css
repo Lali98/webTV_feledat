@@ -1,0 +1,85 @@
+main, header {
+    width: 1000px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#4a8fff, #00ebff) no-repeat center center fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background: #3175ef;
+}
+
+nav .nav-item:hover {
+    background: #005dff;
+    transition: .5s;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 20px;
+    width: 80px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+nav .nav-item{
+    width: 160px;
+}
+
+#nav {
+    background: #1548a4;
+    margin-bottom: 10px;
+}
+
+.kep {
+    float: right;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.kep img {
+    width: 200px;
+    margin: 0;
+}
+
+.k_alá p {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+main:not(#leiras), vid:not(#gura) {
+    display: none;
+}
+
+iframe {
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

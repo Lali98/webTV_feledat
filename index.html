@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>VTuber</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<nav>
+    <span class="nav-item" onclick="megjelenito('main', 'leiras')">Leirás</span>
+    <span class="nav-item" onclick="megjelenito('main', 'video')">VTuberek bemutatása</span>
+</nav>
+
+<header>
+    <h1>VTuber</h1>
+</header>
+
+<main id="leiras">
+    <div class="kep">
+        <img src="kep/kizuna-ai.jpg" alt="Kizuna AI" title="Kizuna AI">
+        <div class="k_alá">
+            <p><a href="https://www.youtube.com/c/AIChannel" target="_blank">Kizuna AI</a></p>
+        </div>
+    </div>
+    <p>A virtuális youtuber vagy röviden vtuber egy olyan videós tartalomkészítő, aki (általában japán anime
+        stílusú)
+        digitális avatárként jelenik meg. A kifejezést először
+        <a href="https://www.youtube.com/c/AIChannel" target="_blank">Kizuna AI</a> karaktere használta magára
+        2016-ban,
+        aki bemutatkozása után 10 hónappal már több, mint 2 millió feliratkozóval rendelkezett és hivatalosan a
+        japán
+        turizmus nagykövetévé vált.</p>
+    <p>A virtuális youtubereket foglalkoztató japán cégek kezdeti sikereik után Kínában, Dél-Koreában, Indonéziában
+        és
+        Indiában is terjeszkedni kezdtek, miközben több önálló videókészítő is tőlük függetlenül elindult angol
+        nyelvterületeken. 2020-ra főleg az amerikai
+        <a href="https://www.youtube.com/c/ProjektMelodyOfficial" target="_blank">Projekt Melody</a> felnőtt
+        oldalakon
+        való sikeressége és a japán
+        <a href="https://www.youtube.com/channel/UCotXwY6s8pWmuWd_snKYjhg" target="_blank">Hololive Production
+            angolnyelvű</a> karaktereinek köszönhetően a fogalom a világ nagyrészén bekerült a köztudatba. Ma már a
+        legtöbb európai országnak van saját nyelvű virtuális youtubere és összességében több tízezer (a japán
+        trendekkel
+        ellentétben, céges háttérrel vagy stábbal általában nem rendelkező, önálló) karakter található az
+        interneten.
+    </p>
+    <p>Az avatárok 3D modellek és animált 2D képek is lehetnek, technológiai megoldástól függően arckifejezések
+        követésére, vagy speciális esetekben kézmozgás és teljes alakos mozgáskövetésre is képesek. A VTuberek
+        szorosan
+        kapcsolódnak a japán idol kultúrához, így a karakterek gyakran vesznek részt ilyen hírességekéhez hasonló
+        tevékenységekben. Virtuális testrészeiknek köszönhetően azonban olyan mozgásokra, interakciókra is képesek,
+        amelyekre egy emberi előadó (vagy az avatárt megtestesítő ember a fizikai állapota miatt) nem. Tartalmaik
+        között
+        gyakori videójátékok élő közvetítése (megnevezésükkel ellentétben, nem csak YouTube-platformon aktívak,
+        többen
+        közülük a Twitch felületét is használják), digitális rajzolás, tánc és éneklés. Egyes előadók saját
+        számokkal és
+        önálló zenei kiadványokkal is rendelkeznek és koncerteket is adnak Virtuális Valóságban.</p>
+    <p>2018-ban a SoftBank az iPhoneXS szériát Kizuna AI-val reklámozta, de arra is volt példa, hogy bizonyos
+        karakterek
+        politikai, képviseleti feladatokat lássanak el. Annak ellenére, hogy az avatárokat megtestesítő személyek
+        kilétét a legtöbbször titokként kezelik, hírnevük miatt így is gyakran kerülnek online zaklatás áldozatává.
+        2020
+        szeptemberében a Hololive egy VTuberének, Mano Aloe-nak, 2 héttel a bemutatkozása után vissza kellett
+        vonulnia
+        zaklatások miatt.</p>
+</main>
+<main id="video">
+    <h2>Néhány vtuberek</h2>
+    <div id="nav">
+        <span class="nav-item" onclick="megjelenito('vid', 'gura')">Gawr Gura</span>
+        <span class="nav-item" onclick="megjelenito('vid', 'cali')">Mori Calliope</span>
+        <span class="nav-item" onclick="megjelenito('vid', 'kizuna')">Kizuna AI</span>
+        <span class="nav-item" onclick="megjelenito('vid', 'shylily')">ShyLily</span>
+        <span class="nav-item" onclick="megjelenito('vid', 'squ')">SquChan</span>
+        <span class="nav-item" onclick="megjelenito('vid', 'vei')">Veibae</span>
+        <span class="nav-item" onclick="megjelenito('vid', 'sinder')">Sinder</span>
+        <span class="nav-item" onclick="megjelenito('vid', 'gori')">Minoríta Minogorifá</span>
+    </div>
+    <vid id="gura">
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/dBK0gKW61NU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowfullscreen></iframe>
+    </vid>
+    <vid id="cali">
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/M85xU-tbQ6c"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </vid>
+    <vid id="kizuna">
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/otkOT2NOWaA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </vid>
+    <vid id="shylily">
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/YXdYoHD-5pg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </vid>
+    <vid id="squ">
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/5rJDNqYUwqY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/9i0iHOHSgIU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </vid>
+    <vid id="vei">
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/qgIvpFTVrlE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </vid>
+    <vid id="sinder">
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/jPimJmom0Dc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </vid>
+    <vid id="gori">
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/Gilakteohec"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        <iframe width="100%" height="540" src="https://www.youtube-nocookie.com/embed/paam2DSaL8Q"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </vid>
+</main>
+</body>
+</html>
